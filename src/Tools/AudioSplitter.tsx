@@ -183,7 +183,7 @@ export default function AudioSplitter() {
                         Select
                     </label>
                 </Button>
-                <Input id="audio-splitter-file" type="file" accept="audio/*" className="hidden" onChange={handleFile} multiple={false} />
+                <Input id="audio-splitter-file" type="file" className="hidden" onChange={handleFile} multiple={false} />
                 <Button disabled={loading} onClick={handleSplit}>
                     Run
                 </Button>
